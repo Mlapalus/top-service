@@ -1,0 +1,87 @@
+main {
+    background-color: white/* rgb(222, 244, 248)*/; 
+
+    background-image: none;
+}
+.container {
+    background-color:  rgb(155, 219, 249)
+    ;
+    display: flax;
+    justify-content: center;
+    align-items: center;
+}
+.container img {
+    width: 100%;
+    opacity: 1;
+}
+.devis {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+.titreBleu{
+    color :   rgb(6, 76, 148);
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+.container .contactUpper{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 1.2;
+    border-top: 5px;
+}
+
+.nosContacts {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 1.2;
+}
+
+@media only screen and(max-width: 800px) 
+{
+    .container .contactUpper {
+        font-size: 30px;
+    }
+    .nosContacts{
+        font-size: 20;
+    }
+}
+@media only screen and (max-width: 620px) 
+{
+    .container .contactUpper {
+        font-size: 20px;
+    }
+    .nosContacts {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 420px) 
+{
+    .container .contactUpper {
+        font-size: 10px;
+    }
+    .nosContacts {
+        font-size: 15px;
+    }
+    .devis {
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .titreBleu{
+        color :   rgb(6, 76, 148);
+        font-style: italic;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+}

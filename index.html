@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top-Service Page d'Accueil</title>
+    <link rel="stylesheet" type="text/css" href="./css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./css/util.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <script type="text/javascript" src="./js/main.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="topnav" id="myTopnav">
+            <!-- Section de la barre de navigation contenant le menu de navigation et les infos d'accessibilité  -->
+            <section style="order: 2;">
+                <!-- La classe accessibility est utilisée pour rendre invisible des infos utiles dans la barre de menu-->
+                <h1 class="accessibility" style="order: 2;">Menu Principal</h1>
+                <!--  Paragraphe utilisable pour passer directement au contenu de la page -->
+                <p class="accessibility" style="order: 3;"><a href="#pageContent" title="Accéder directement au contenu">Passer le menu</a></p>
+
+                <!-- Menu placé en premier à gauche dans la barre de navigation -->
+                <ul class="main_menu" style="order: 1">
+                    <li><a href="index.html" title="Un lien vers la page d'accueil" style="order: 1;">Accueil</a></li>
+                    <li><a href="prestations.html" title="Un lien vers la page de nos prestations" style="order: 2;">Nos prestations</a></li>
+                    <li><a href="contact.html" title=" Un lien vers la page contact de ce site" style="order: 3;">Contact</a></li>
+                </ul>
+            </section>
+            <!-- Section contenant le bouton de menu pour le responsive -->
+            <section style="order: 1;">
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </section>
+        </nav>
+    </header>
+
+    <main class="#pageContent" >
+        <!--  Section contenant le titre principal   -->
+        <section class="banner">
+            <div>
+                <h1 class="titrePrincipal">TOP SERVICES</h1>
+            </div>
+        </section>
+        <!-- Section contenant les 3 photos de la bannière  -->
+        <section class="mainBanner">
+            <div>
+                <img    src="img/immeubles2.jpg" 
+                        alt="Photo montrant une personne réalsisant du nettoyage industriel">
+            </div>
+            <div>
+                <img src="img/industrial-1636380_1280.jpg" alt="Photo montrant des ustensils de nettoyage">
+            </div>
+            <div>
+                <img src="img/chariot.jpg" alt="Photo d'un chariot de nettoyage industriel">
+            </div>
+        </section>
+        <!-- Section contenant le slogan de la société -->
+        <section>
+            <div>
+                <p class="slogan">
+                    LE NETTOYAGE AU SERVICE D'UNE CLIENTELE EXIGEANTE
+                </p>
+            </div>
+        </section>
+        <!-- Section utilisée seulement pour insérée une image-->
+        <section class="placeImage" aria-label="Section utilisée pour insérer une image" ></section>
+    </main>
+    
+    <footer>
+        <section>
+            <div class="liseretBleu"></div>
+            <div>
+                <p class="contactUpper">4, Place Leon Blum 92290 Chatenay Malabry</p>
+                <p class="mail">Email : topservices@gmail.com </br> 06 68 21 71 92 - 09 51 56 53 13</p>
+                <p class="lapalus">Site created by MLapalus</p>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>
